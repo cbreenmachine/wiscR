@@ -1,8 +1,7 @@
-#' @export plot_leverage
 #'plot_leverage
 #'Plots the leverage points with a horizontal line corresponding to a decision
 #'boundary recommendation.
-
+#' @export
 plot_leverage <- function(model){
 
   # How many observations (n) and predictors (p)

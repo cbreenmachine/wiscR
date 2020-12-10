@@ -1,8 +1,7 @@
-#' @export qqplot
 #'qqplot
 #'Returns a ggplot object that can be costomized using grammar of graphics
 #'instead of R's janky base graphics
-
+#' @export
 qqplot <- function(x){
 
 data.frame(x = model$residuals) %>%

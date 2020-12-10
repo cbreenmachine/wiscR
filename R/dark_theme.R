@@ -1,7 +1,6 @@
-#' @export dark_theme
 #' Adds a dark theme to a ggplot object with sensible font sizes
 #' and styles
-
+#' @export
 dark_theme <- function(){
   require(tidyverse)
 

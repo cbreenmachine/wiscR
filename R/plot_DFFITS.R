@@ -1,7 +1,6 @@
-#' @export plot_DFFITS
 #'plot_DFBETAS
 #'DFBETAS to come
-
+#' @export
 plot_DFFITS <- function(model){
 
   # How many observations (n) and predictors (p)
