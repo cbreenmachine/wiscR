@@ -4,9 +4,12 @@
 #' @export
 qqplot <- function(x){
 
-data.frame(x = model$residuals) %>%
+data.frame(x = x) %>%
   ggplot(aes(sample = x)) +
   stat_qq() +
   stat_qq_line(color = "red") %>%
   return()
+
+
+
 }
