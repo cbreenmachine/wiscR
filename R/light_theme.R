@@ -9,5 +9,5 @@ dark_theme <- function(){
           panel.grid.major = element_line(size = 0.2),
           panel.grid.minor = element_line(size = 0.5),
           strip.background = element_rect(size = 0),
-          plot.background = element_rect(size = 2)
+          plot.background = element_rect(size = 2))
 }
