@@ -1,7 +1,8 @@
 #' Adds a light theme to a ggplot object with sensible font sizes
 #' and styles
 #' @export
-dark_theme <- function(){
+#' light_theme()
+light_theme <- function(){
   require(tidyverse)
 
   theme_minimal() %+replace%
