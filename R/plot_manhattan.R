@@ -83,7 +83,7 @@
 #   annotate("text", x = 3e4, y = -log10(0.02), label = "Significant at\naLIS < 0.05", size = sz, color = "black")
 #
 
-plot_manhattan(df){
+plot_manhattan <- function(df){
   require(tidyverse)
   return(NULL)
 }
