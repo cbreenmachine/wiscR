@@ -5,6 +5,7 @@
 #' @return a ggplot object
 #' @export
 plot_PCs <- function(df, color_by_str){
+  require(tidyverse)
   # gets the scatter plot
   p <- df %>%
     drop_na() %>%
